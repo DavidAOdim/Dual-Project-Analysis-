@@ -30,7 +30,7 @@ User_Velocity = input("Enter an intitial velocity in ft/s: ");
 
 %% Step 4: Refine and Implement
 Time = 0:.1:20;
-Height = User_0Height + User_Velocity*Time - .5*g*Time.^2;
+Height = User_Height + User_Velocity*Time - .5*g*Time.^2;
 
 DATA = [Time',Height'];
 
