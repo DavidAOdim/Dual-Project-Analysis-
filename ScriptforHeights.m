@@ -40,7 +40,7 @@ MAX_TIME = Time(LOC);
 disp(' ')
 disp('Displaying the final answer: ')
 
-fprintf('The maximum height was %0.2f\n', MAX_Height);
+fprintf('The maximum height was %0.2f\n', MAX_HEIGHT);
 fprintf('The corresonding time was %0.2f seconods.\n',MAX_TIME);
 fprintf('The planet was %s\n',Planet)
 
